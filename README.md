@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="gm5ZhzpCwzgaKMeZ-Rxr_1Y_aLArxXl6SSKXEdQDGKo" />
+
 # Revize plynových zařízení - tel. 724 067 268
 ## Kdy se provádí provozní revize plynu?
 <b> Revize plynu objednávejte na tel. č. 724 067 268 pokud jste z Klatov a okolí. Odpojili vám plynoměr? Chcete znovu připojit plyn? Potřebujete novou výchozí revizní zprávu plynu? Nebo pravidelnou tříletou provozní revizi plynu? Kontrolu plynu. </b>
