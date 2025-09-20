@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+  <meta name="description" content="Radek Farny | plyn, web">
+  <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
+  <meta name="google-site-verification" content="gm5ZhzpCwzgaKMeZ-Rxr_1Y_aLArxXl6SSKXEdQDGKo" />
+  <link rel="stylesheet" href="{{ '/assets/normalize.css' | relative_url }}">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <div class="section title">
+    <div class="size">
+      <h1>Revize plynových zařízení</h1>
+    </div>
+  </div>  
+  <div class="section section-1">
+    <div class="size">
+      {{ page.section1 | markdownify }}
+    </div>
+  </div>
+  <div class="section section-2">
+    <div class="size">
+      {{ page.section2 | markdownify }}
+    </div>
+  </div>
+  <div class="section section-3">
+    <div class="size">
+      {{ page.section3 | markdownify }}
+    </div>
+  </div>
+  <div class="section section-4">
+     <div class="size">
+      {{ page.section4 | markdownify }}
+      </div>
+    </div>
+
+<!-- Footer courtesy of ChatGPT -->
+ <footer class="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/Person">
+  <div class="size">
+  <address itemprop="address" class="contact-address">
+    <strong itemprop="name">Radek Farny</strong><br>
+    <span>Bolšiny 44</span><br>
+    <span>Klatovy 33901</span><br>
+  </address>
+
+  <p class="contact-ways">
+    <!-- Email assembled by JS; noscript fallback (shows a contact link) -->
+    <span style="color: #4cd408;" id="email-link" aria-label="Email contact"></span><br>
+    <!-- Phone assembled by JS -->
+    <span style="color: #4cd408;" id="phone-link" aria-label="Telephone contact"></span>
+    <noscript>
+      <!-- If JS disabled, show a link to a contact page instead -->
+      <a href="/contact/">Contact page</a>
+    </noscript>
+  </p>
+
+  <script>
+    (function(){
+      // email parts
+      var user = "radek.farny";
+      var domain = "sezam.cz";
+      var email = user + "@" + domain;
+      var emailAnchor = '<a href="mailto:' + email + '" aria-label="Email ' + email + '">' + email + '</a>';
+      document.getElementById('email-link').innerHTML = emailAnchor;
+
+      // phone parts (Czech country code +420)
+      var phone = "+420 724 067 268";
+      var phoneTel = "+420724067268";
+      var phoneAnchor = '<a href="tel:' + phoneTel + '" aria-label="Telephone ' + phone + '">tel. ' + phone + '</a>';
+      document.getElementById('phone-link').innerHTML = phoneAnchor;
+    })();
+  </script>
+  </div>
+</footer>
+
+</body>
+</html>
