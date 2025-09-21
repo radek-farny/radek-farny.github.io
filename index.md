@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Radek Farny | revize plynových zařízení
+title: Revize plynu Klatovy - Radek Farny
 
 section1: |
     ## Kdy se provádí provozní revize plynu?

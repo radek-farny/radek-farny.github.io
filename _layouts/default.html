@@ -8,6 +8,8 @@
   <meta name="description" content="Radek Farny | revize plynových zařízení">
   <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
   <meta name="google-site-verification" content="gm5ZhzpCwzgaKMeZ-Rxr_1Y_aLArxXl6SSKXEdQDGKo" />
+
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
   <link rel="stylesheet" href="{{ '/assets/normalize.css' | relative_url }}">
   <title>{{ page.title }}</title>
 </head>
@@ -18,7 +20,7 @@
     </div>
   </div>  
   <div class="section section-1">
-    <div class="size">
+    <div class="size" style="padding:1.25em;">
       {{ page.section1 | markdownify }}
     </div>
   </div>
@@ -39,9 +41,9 @@
     </div>
 
 <!-- Footer courtesy of ChatGPT -->
- <footer class="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/Person">
+<footer class="site-footer" role="contentinfo" itemscope itemtype="https://schema.org/LocalBusiness">
   <div class="size">
-  <address itemprop="address" class="contact-address">
+  <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" class="contact-address">
     <strong itemprop="name">Radek Farny</strong><br>
     <span>Bolešiny 44</span><br>
     <span>Klatovy 33901</span><br>
@@ -74,6 +76,27 @@
       document.getElementById('phone-link').innerHTML = phoneAnchor;
     })();
   </script>
+
+  <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Radek Farny",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bolešiny 44",
+        "addressLocality": "Klatovy",
+        "postalCode": "33901",
+        "addressCountry": "CZ"
+      },
+      "telephone": "+420724067268",
+      "email": "radek.farny@seznam.cz",
+      "areaServed": "Klatovy",
+      "url": "{{ site.url }}"
+    }
+    </script>
+
   </div>
 </footer>
 

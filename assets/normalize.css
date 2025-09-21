@@ -386,6 +386,10 @@ li+li {
   box-shadow: 0px -1px 5px 0px #09390c;
 }
 
+.section {
+  padding: 1.25rem;
+}
+
 .section-4 {
   background-color: #273333;
   color: seashell;
