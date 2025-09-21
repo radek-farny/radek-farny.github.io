@@ -3,7 +3,7 @@ email: radek.farny@seznam.cz
 description: >- 
   Radek Farny profesionální revize plynových zařízení v Klatovech a okolí - web
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://radek-farny.github.io"
 github_username:  radek-farny
 keywords: "Radek Farny, Bolešiny, Klatovy, Seznam, kontakt, plyn, revize, plynová zařízení, revize, plynu, revize plynu Klatovy, revize plynu v Klatovech"
 
