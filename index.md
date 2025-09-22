@@ -7,10 +7,7 @@ section1: |
     <b> Revize plynu objednávejte na tel. č. 724 067 268 pokud jste z Klatov a okolí. Odpojili vám plynoměr? Chcete znovu připojit plyn? Potřebujete novou výchozí revizní zprávu plynu? Nebo pravidelnou tříletou provozní revizi plynu? Kontrolu plynu? </b>
 
     - pokud bylo zařízení více než 6 měsíců mimo provoz
-    - skončením zkušebního provozu
-    - po provedené generální opravě, zásahu, který má vliv na bezpečnost či spolehlivost zařízení
-    - nucená přestávka provozu z důvodu provozní nehody nebo poruchy
-    - skončil-li zkušebního provozu
+    - skončil-li zkušební provoz
     - po provedené generální opravě, zásahu, který má vliv na bezpečnost či spolehlivost zařízení
     - po nucené přestávce provozu z důvodu provozní nehody nebo poruchy
 
@@ -21,7 +18,7 @@ section2: |
     - stávající rozvody plynu, na kterých byl proveden zásah a má tato skutečnost vliv na těsnost potrubí
     - stávající plynovody před uvedením do provozu (obnovení přerušeného provozu)
     - spoje (propoje) mezi úseky nově vybudovaných plynovodů zkoušených samostatně
-    - nové připojení plynového spotřebiče - plynový sporák, plynová varná deska, kotel.....
+    - nové připojení plynového spotřebiče - plynový sporák, plynová varná deska, kotel...
 
 section3: |
     ## Kam jezdím na revize plynu?
