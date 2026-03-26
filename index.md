@@ -20,6 +20,15 @@ section2: |
     - spoje (propoje) mezi úseky nově vybudovaných plynovodů zkoušených samostatně
     - nové připojení plynového spotřebiče - plynový sporák, plynová varná deska, kotel...
 
+section2_5: |
+    ## Co umím
+    - c1 - Zařízení pro plnění nádob plyny a tlakové stanice plynu - revize kontroly
+    - e2 - Regulační stanice plynu - servis, údržba, opravy
+    - f1 - Domovní rozvody plynu - revize, kontroly
+    - f2 - Průmyslové plynovody - revize, kontroly
+    - g1 - Spotřebiče s výkonem pod 50 kW - revize, kontroly
+    - g2 - Kotle s výkonem 50 kW a více - revize, kontroly
+
 section3: |
     ## Kam jezdím na revize plynu?
     <b> Klatovy a okolí, po tel. domluvě přijedu dle potřeb zákazníka. </b>
